@@ -1,0 +1,64 @@
+.footer {
+    max-width: 1146px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 70px;
+    padding-bottom: 64px;
+
+    &_page {
+        display: flex;
+        justify-content: space-between;
+        max-width: 810px;
+        width: 100%;
+
+        &--card {
+
+            &--title {
+                font-family: Fira Sans;
+                font-weight: 700;
+                font-size: 16px;
+                color: #111238;
+                line-height: 100%;
+                padding-bottom: 5px;
+                letter-spacing: 0%;
+            }
+
+            &--text {
+                font-family: Fira Sans;
+                font-weight: 400;
+                font-size: 16px;
+                color: #111238;
+                padding-top: 10px;
+                line-height: 100%;
+                letter-spacing: 0%;
+            }
+        }
+    }
+
+    &_content {
+        padding-top: 30px;
+
+        &--job {
+            font-family: Fira Sans;
+            font-weight: 400;
+            font-size: 12px;
+            padding-bottom: 15px;
+            padding-top: 33px;
+            color: #B2B2B2;
+            max-width: 166px;
+            line-height: 140%;
+            letter-spacing: 0%;
+        }
+
+        &--text {
+            font-family: Fira Sans;
+            font-weight: 400;
+            font-size: 12px;
+            color: #B2B2B2;
+            line-height: 140%;
+            letter-spacing: 0%;
+        }
+    }
+}

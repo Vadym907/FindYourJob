@@ -1,0 +1,306 @@
+.categories {
+    padding-top: 70px;
+    max-width: 1146px;
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 80px;
+
+    &_title {
+        font-family: Fira Sans;
+        font-weight: 700;
+        font-size: 24px;
+        color: #111238;
+        padding-bottom: 40px;
+        line-height: 100%;
+        letter-spacing: 0%;
+    }
+
+    &_page {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        &--card {
+            background: #F2F3F6;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            width: 166px;
+            transition: background-color 500ms cubic-bezier(0.4, 0, 0.2, 1);
+            height: 128px;
+            transition: transform 500ms cubic-bezier(0.4, 0, 0.2, 1);
+
+            &--text {
+                font-family: Fira Sans;
+                font-weight: 400;
+                font-size: 16px;
+                color: #111238;
+                padding-top: 15px;
+                line-height: 100%;
+                letter-spacing: 0%;
+                text-align: center;
+                transition: color 500ms cubic-bezier(0.4, 0, 0.2, 1);
+
+
+            }
+
+            &--svg {
+                margin-top: 35px;
+
+
+                &--path {
+                    transition: fill 500ms cubic-bezier(0.4, 0, 0.2, 1);
+                }
+            }
+
+            &:hover {
+                background: #1A75E8;
+                transform: translateY(-10px);
+
+                p {
+                    color: #fff;
+                }
+
+                svg {
+
+                    path {
+                        fill: #fff;
+                    }
+                }
+
+
+            }
+        }
+    }
+}
+
+.openings {
+    max-width: 1146px;
+    width: 100%;
+    margin: 0 auto;
+    padding-right: 15px;
+    padding-bottom: 80px;
+    padding-left: 15px;
+
+    &_title {
+        font-family: Fira Sans;
+        font-weight: 700;
+        font-size: 24px;
+        color: #111238;
+        line-height: 100%;
+        padding-bottom: 40px;
+        letter-spacing: 0%;
+    }
+
+    &_page {
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+        align-items: center;
+
+        &--btn {
+            font-family: Fira Sans;
+            font-weight: 400;
+            font-size: 16px;
+            color: #fff;
+            background: #1A75E8;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 5px;
+            margin-top: 40px;
+            line-height: 100%;
+            letter-spacing: 0%;
+            text-align: center;
+        }
+
+        &--card {
+            border: 1px solid #C5C9D4;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 100%;
+            padding-top: 30px;
+            padding-left: 30px;
+            padding-right: 30px;
+            padding-bottom: 30px;
+            max-width: 1146px;
+
+            &--div {
+                display: flex;
+                align-items: center;
+                max-width: 795px;
+                width: 100%;
+                justify-content: space-between;
+
+                &--content {
+                    display: flex;
+                    align-items: center;
+
+                    &--text {
+                        font-family: Fira Sans;
+                        font-weight: 400;
+                        font-size: 14px;
+                        color: #B2B2B2;
+                        line-height: 100%;
+                        letter-spacing: 0%;
+                        margin-right: 15px;
+                    }
+
+                    &--wrapper {
+                        gap: 10px;
+
+                        &--btn {
+                            font-family: Fira Sans;
+                            font-weight: 400;
+                            font-size: 14px;
+                            color: #B2B2B2;
+                            border: 1px solid #B2B2B2;
+                            line-height: 100%;
+                            padding: 5px 10px;
+                            border-radius: 5px;
+                            background-color: #fff;
+                            letter-spacing: 0%;
+                        }
+                    }
+                }
+
+                &--container {
+                    display: flex;
+                    align-items: center;
+
+                    &--btn {
+                        font-family: Fira Sans;
+                        font-weight: 700;
+                        font-size: 16px;
+                        color: #fff;
+                        line-height: 100%;
+                        background: #1A75E8;
+                        border-radius: 5px;
+                        border: none;
+                        padding: 10px 25px;
+                        letter-spacing: 0%;
+                        text-align: center;
+                    }
+
+                    &--wrapper {
+                        margin-right: 46px;
+                        margin-left: 20px;
+
+                        &--job {
+                            font-family: Fira Sans;
+                            font-weight: 700;
+                            font-size: 16px;
+                            color: #111238;
+                            line-height: 100%;
+                            letter-spacing: 0%;
+                            padding-bottom: 10px;
+                        }
+
+                        &--text {
+                            font-family: Fira Sans;
+                            font-weight: 400;
+                            font-size: 14px;
+                            color: #111238;
+                            line-height: 100%;
+                            letter-spacing: 0%;
+                        }
+                    }
+                }
+            }
+
+            &--more {
+                color: #1A75E8;
+                font-family: Fira Sans;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 100%;
+                letter-spacing: 0%;
+                padding-right: 25px;
+            }
+        }
+    }
+
+
+}
+
+.subscribe {
+    background: #F2F3F6;
+
+    &_page {
+        max-width: 460px;
+        width: 100%;
+        padding-top: 90px;
+        padding-bottom: 90px;
+        margin: 0 auto;
+
+        &--title {
+            font-family: Fira Sans;
+            font-weight: 900;
+            font-size: 36px;
+            color: #111238;
+            margin-bottom: 20px;
+            line-height: 100%;
+            letter-spacing: 0%;
+            text-align: center;
+        }
+
+        &--text {
+            font-family: Fira Sans;
+            font-weight: 400;
+            font-size: 18px;
+            color: #111238;
+            margin-bottom: 40px;
+            line-height: 140%;
+            letter-spacing: 0%;
+            text-align: center;
+        }
+
+        &--form {
+            background: #fff;
+            box-shadow: 0px 4px 25px 0px #0F11381A;
+            border: 1px solid #D1D1D11A;
+            display: flex;
+            align-items: center;
+            border-radius: 5px;
+            max-width: 447px;
+            padding-top: 11px;
+            padding-bottom: 11px;
+            padding-left: 26px;
+
+            &--input {
+                border: none;
+                color: #B2B2B2;
+                outline: none;
+                max-width: 47px;
+                margin-right: 184px;
+            }
+
+
+            &--btn {
+                background: #1A75E8;
+                padding-right: 31px;
+                border-radius: 5px;
+                border: none;
+                display: flex;
+                padding-top: 15px;
+                padding-bottom: 15px;
+
+                &--img {
+                    padding-left: 30px;
+                }
+
+                &--span {
+                    padding-left: 11px;
+                    font-family: Fira Sans;
+                    font-weight: 400;
+                    font-size: 16px;
+                    color: #fff;
+                    line-height: 100%;
+                    letter-spacing: 0%;
+                }
+            }
+        }
+    }
+}
